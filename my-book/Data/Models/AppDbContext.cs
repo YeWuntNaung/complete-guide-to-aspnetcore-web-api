@@ -15,5 +15,7 @@ namespace my_book.Data.Models
 
         public DbSet<Book> Books { get; set; }
         //Able to use this name "Books" to sent data into the table in database.
+
+        public DbSet<Author> Authors { get; set; }
     }
 }

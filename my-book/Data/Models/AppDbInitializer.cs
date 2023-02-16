@@ -17,17 +17,17 @@ namespace my_book.Data.Models
 
                 if (!context.Books.Any())
                 {
-                    context.Books.AddRange(new Book() 
+                    context.Books.AddRange(new Book()
                     {
-                         Title = "First Book Title",
-                         Description = "First Book Description",
-                         IsRead = true,
-                         DateRead = DateTime.Now.AddDays(-10),
-                         Rate = 4,
-                         Genre = "Biography",
-                         Author = "Ye Wunt Naung",
-                         CoverUrl = "https://www.ywn.com.mm",
-                         DateAdded = DateTime.Now.AddDays(-30)
+                        Title = "First Book Title",
+                        Description = "First Book Description",
+                        IsRead = true,
+                        DateRead = DateTime.Now.AddDays(-10),
+                        Rate = 4,
+                        Genre = "Biography",
+                        Author = "Ye Wunt Naung",
+                        CoverUrl = "https://www.ywn.com.mm",
+                        DateAdded = DateTime.Now.AddDays(-30)
                     },
                     new Book()
                     {
@@ -37,6 +37,18 @@ namespace my_book.Data.Models
                         DateRead = DateTime.Now.AddDays(-10),
                         Rate = 4,
                         Genre = "History",
+                        Author = "Ye Wunt Naung",
+                        CoverUrl = "https://www.ywn.com.mm",
+                        DateAdded = DateTime.Now.AddDays(-30)
+                    },
+                    new Book()
+                    {
+                        Title = "Third Book Title",
+                        Description = "First Book Description",
+                        IsRead = true,
+                        DateRead = DateTime.Now.AddDays(-10),
+                        Rate = 4,
+                        Genre = "Biography",
                         Author = "Ye Wunt Naung",
                         CoverUrl = "https://www.ywn.com.mm",
                         DateAdded = DateTime.Now.AddDays(-30)
